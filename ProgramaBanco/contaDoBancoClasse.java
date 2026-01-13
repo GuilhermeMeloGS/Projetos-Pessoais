@@ -1,24 +1,12 @@
 import java.util.Scanner;
 
-// Representa uma conta bancária e suas operações
 public class ContaDoBanco {
 
-    // Scanner utilizado para interações internas da conta
     Scanner ler = new Scanner(System.in);
-
-    // Identificador da conta
     private int numConta;
-
-    // Tipo da conta: CC (Corrente) ou CP (Poupança)
     private String tipo;
-
-    // Nome do titular da conta
     private String dono;
-
-    // Saldo atual da conta
     private double saldo;
-
-    // Indica se a conta está ativa
     private boolean status;
 
     // Inicializa a conta fechada e sem saldo
